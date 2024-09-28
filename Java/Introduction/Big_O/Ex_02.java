@@ -1,5 +1,7 @@
 package Big_O;
-
+/* runtime complexity : Linear 
+ * the cost of algorithms grows linearly - > O(n) , O(n+n), O(n + m)
+ */
 public class Ex_02 {
 	public static int pairSum(int a, int b) {
 		return a + b;
@@ -18,3 +20,9 @@ public class Ex_02 {
 		System.out.println(s);
 	}		
 }
+/*
+ * There will be roughly O(n) calls to pairSum, 
+ * However, those calls do not exist simultaneously on the call stack. 
+ * so you only need O(1) space.
+ * */
+ 
